@@ -24,7 +24,7 @@ if (year > 2015) {
   result4 = 'greater than 2015';
 } else if (year > 2010) {
   result4 = 'greater than 2010';
-} else if (year > 2012) {
+} else if (year > 2012) { // Dead code
   result4 = 'greater than 2012';
 } else {
   if (year < 2000) {
