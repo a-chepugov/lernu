@@ -49,3 +49,31 @@ const keyRadix = (length, radix) => {
 
 Смотри:
 - [Number.prototype.toString()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)
+
+
+## 4. Функция обертка
+
+Написать функцию обертку для вариативной функции сумматора
+```js
+/**
+ * @param {...number} args
+ * @return {number}
+ */
+const mul = (...args) =>
+    args.reduce((a, item) => (a += item, a), 0)
+```
+Таким образом чтобы функция обертка вызывала сумматор и возвращала результат из него, а также записывала с какими аргументами был вызван сумматор 
+
+```js
+const invokeParams = [];
+
+/**
+ * @param {...number} args
+ * @return {number}
+ */
+const sumWithSave = (...args) => {
+};
+```
+
+Смотри:
+- [Function.prototype.apply()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
