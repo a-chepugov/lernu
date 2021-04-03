@@ -1,10 +1,10 @@
 console.log('\n\n scalar =>');
 console.log("\nconsole.log('log'); =>");
-console.log('log');
+console.log('log message');
 console.log("\nconsole.info('info'); =>");
-console.info('info');
+console.info('info message');
 console.log("\nconsole.error('error'); =>");
-console.error('error');
+console.error('error message');
 
 var nested = {1: {2: {3: {4: {5: {6: null}}}}}};
 console.log(`\n\n nested ${JSON.stringify(nested)} =>`);
