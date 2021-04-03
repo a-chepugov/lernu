@@ -2,7 +2,7 @@ function sum(a, b) {
   return a * b;
 }
 
-console.log('sum(2, 3)', sum(1, 2));
+console.log('mul(1, 2)', sum(1, 2));
 
 
 function variativeSum() {
