@@ -7,6 +7,8 @@ console.table({
   'fn(1, 2)': fn(1, 2),
   'fn(1)': fn(1),
   'fn()': fn(),
+  'fn(1, 2, undefined)': fn(1, 2, undefined),
+  'fn(1, 2, null)': fn(1, 2, null),
 })
 
 
@@ -22,4 +24,6 @@ console.table({
   'fnOld(1, 2)': fnOld(1, 2),
   'fnOld(1)': fnOld(1),
   'fnOld()': fnOld(),
+  'fnOld(1, 0, 0) - invalid flow': fnOld(1, 0, 0),
+  'fnOld(1,"","") - invalid flow': fnOld(1, "", ""),
 })
