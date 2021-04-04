@@ -7,6 +7,10 @@ console.log(
   "\nconst mul4 = mul.bind(null, 4);\nmul4(5) ===",
   mul4(5));
 
+const mul6x7 = mul.bind(null, 6, 7);
+console.log(
+  "\nconst mul6x7 = mul.bind(null, 6, 7);\nmul6x7() ===",
+  mul6x7());
 
 console.log(
   "\nmul(2, 3) ===",
