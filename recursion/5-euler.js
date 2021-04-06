@@ -1,7 +1,8 @@
-// e = 1 + (1/1! + (1/2! + (1/3! + (...))))
-
 const factorial = (n) => (n === 0) ? 1 : n * factorial(n - 1);
 
+/**
+ * @description n! = 1 + (1/1! + (1/2! + (1/3! + (...))))
+ */
 const euler = (n) => {
 	function recursive(current, max) {
 		if (current > max) {
