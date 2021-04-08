@@ -77,3 +77,24 @@ function reverse(str) {
 ```js
 reverse('Greetings friend'); // "dneirf sgniteerG"
 ```
+
+## 4. Палиндром
+
+Написать рекурсивную функцию, которая проверяет, является ли строка
+[палиндромом](https://ru.wikipedia.org/wiki/Палиндром)
+
+```js
+/**
+ * @param {string} str
+ * @return {boolean}
+ */
+function isPalindrome(str) {
+}
+```
+
+Пример использования:
+```js
+isPalindrome('У лип Лёша нашёл пилу'); // true
+isPalindrome('1234567654321'); // true
+isPalindrome('Hello world'); // false
+```
